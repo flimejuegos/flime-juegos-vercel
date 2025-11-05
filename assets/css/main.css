@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #e70000;
+		background: #242424;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3557,7 +3557,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242424;
+		background: linear-gradient(to right,#242424,#585858)
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -6914,4 +6914,26 @@ select > h2 {
 
 .highlight {
 	color: rgb(255, 0, 0)
+}
+.guide-intro {
+background: transparent;
+color: white;
+padding: 20px;  
+border-radius: 10px;
+margin:30px auto;}
+
+.titul-guia {
+text-transform: uppercase;
+color:white;
+background: none;}
+
+.imagen-guia {
+	display: block;
+	margin: 50px auto;
+	margin-top: -100px;
+	width: 90%;
+	border-radius: 10px;
+}
+body {
+	margin-left: 20px;
 }
